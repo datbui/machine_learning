@@ -1,0 +1,1 @@
+function x = normalize(x)  for i=1:columns(x)    p = x(:, i);    p = p - mean(p);    p = p /std(p);    x(:, i) = p;  endforendfunction

@@ -1,0 +1,1 @@
+function num_label = str2num4label(str_label, u_label)  %u_label = unique(str_label);  num_label = zeros(size(str_label));    for i = 1:size(num_label, 1)    label = str_label(i){1};    num_label(i) = find(strcmp(u_label, label));    position = num_label(i);    %fprintf("\nlabel %s position %d\n", label, position);  endforendfunction

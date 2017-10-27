@@ -1,0 +1,1 @@
+function cluster = mykmeans(images, C, k)  % 1000%10  D = pdist2(images, C);  [minv cluster] = min(D')';endfunction

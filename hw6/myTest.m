@@ -1,0 +1,1 @@
+function index = myTest(C, i)  index = find(C == i);endfunction

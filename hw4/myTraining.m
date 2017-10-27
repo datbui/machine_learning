@@ -1,0 +1,1 @@
+function index = myTraining(C, i)  index = find(C != i);endfunction

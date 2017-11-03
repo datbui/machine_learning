@@ -1,0 +1,1 @@
+clear all; close all;pkg load statistics;X = dlmread('mnist_train.csv', ",");y = X(:,1);X(:,1) = [];unique_y = unique(y);for i =1:length(unique_y)  indx = find(y == unique_y(i));  class_i = X(indx, :);  endforC = images(1:10, :);N=1000;for i =1:N  mykmeans(X, 10);endfor
